@@ -8,3 +8,5 @@ git submodule update
 
 cd myapp
 composer update
+
+php oil -v
