@@ -12,3 +12,6 @@ fuel1.6:
 	bash local_provisioning.sh
 	git clone https://github.com/fuel/fuel.git myapp
 	docker exec laradock_workspace_1 bash container_provisioning_fuel16.sh
+laravel:
+	bash local_provisioning.sh
+	docker exec laradock_workspace_1 bash container_provisioning_laravel.sh
