@@ -29,6 +29,6 @@ sed -ie "s/${OLD}/${NEW}/g" ${FILE}
 rm -rf ${FILE}e
 
 OLD="UTC"
-NEW="Asia/Tokyo"
+NEW="Asia\/Tokyo"
 sed -ie "s/${OLD}/${NEW}/g" ${FILE}
 rm -rf ${FILE}e
