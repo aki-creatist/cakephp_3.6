@@ -22,3 +22,13 @@ OLD="'database' => 'my_app'"
 NEW="'database' => 'project'"
 sed -ie "s/${OLD}/${NEW}/g" ${FILE}
 rm -rf ${FILE}e
+
+OLD="en_US"
+NEW="ja-JP"
+sed -ie "s/${OLD}/${NEW}/g" ${FILE}
+rm -rf ${FILE}e
+
+OLD="UTC"
+NEW="Asia/Tokyo"
+sed -ie "s/${OLD}/${NEW}/g" ${FILE}
+rm -rf ${FILE}e
