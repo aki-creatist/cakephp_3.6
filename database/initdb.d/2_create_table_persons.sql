@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `project`.`persons` (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  name VARCHAR(20) NOT NULL,
+  age INT,
+  mail TEXT,
+  PRIMARY KEY( id )
+);
